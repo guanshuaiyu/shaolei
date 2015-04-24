@@ -14,7 +14,7 @@ window.onload= function(){
 //				}
 //			}
 //		}	
-var lei=[
+/*var lei=[
 		 [0,0,1,0,0,0,0,0],
 		 [0,0,0,0,0,0,1,0],
 		 [0,0,0,0,1,0,0,0],
@@ -23,7 +23,18 @@ var lei=[
 		 [0,0,0,0,0,0,0,1],
 		 [0,1,0,0,0,0,0,0],
 		 [1,0,0,0,0,0,0,0]
-		 ];
+		 ];*/
+
+var lei=[];
+for(var i=0 ;i<8; i++){
+	lei[i]=[];
+	for(var j=0;j<8;j++){
+		var a=(Math.random()>0.8)?1:0;
+		lei[i].push(a);
+		}
+	}
+
+
 var new_arr=[];
 for(var i=0;i<8;i++){
 	new_arr[i]=[];
