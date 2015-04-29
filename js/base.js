@@ -1,5 +1,6 @@
 window.onload= function(){
 	
+    
 var row=8;
     var da=document.getElementById('a');
     da.style.width=88*row+'px';
@@ -79,12 +80,20 @@ var _lei=[];
 				 this.style.backgroundImage="url('./image/h.jpg')";
 				 if(e.which==1){
 				 if( this.textContent== 'lei'){
+                     this.style.webkitTransform='rotateZ(720deg)';
+                            var leis = document.getElementsByClassName('lei');
+                     for(var i=0;i<leis.length;i++){
+
+                         leis[i].style.webkitTransform='rotateZ(720deg)';
+                         leis[i].style.backgroundImage="url('./image/h.jpg')";
+                     }
+                     setTimeout(function(){
 					 zhezhao.style.display='block';
 					 zhezhao.style.lineHeight=88*row+'px';
 					 zai.onclick=function(){
 						window.location.reload();
 						 }
-					 
+					 } ,700);
 					 }
 			}	
 			 if(e.which == 3){
