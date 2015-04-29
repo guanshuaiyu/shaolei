@@ -28,15 +28,15 @@ color:#FFFFFF;
 .zai{
 width:200px;
 height:50px;
-float:left;
 border:2px solid #FFFFFF;
 border-radius:50%;
-position:absolute;
-color:#FF0000;
-font-size:24px;
-top:390px;
-left:250px;
+color:white;
+  font-size:24px;
+  position:absolute;
+  top:400px;
+  left:250px;
 text-align:center;
+  line-height:50px;
 }
 .zhezhao1{
 width:100%;
@@ -60,11 +60,12 @@ float:left;
 border:2px solid #FFFFFF;
 border-radius:50%;
 position:absolute;
-top:390px;
-left:250px;
-color:#FF0000;
+left:0px;
+top:0px;
+color:white;
 font-size:24px;
 text-align:center;
+  line-height:50px;
 }
 .b{
 width:70px;
