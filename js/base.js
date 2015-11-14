@@ -107,7 +107,7 @@ var _lei=[];
 				}
 				else{
                            
-                            this.textContent = 'À×';
+                            this.textContent = 'é›·';
                             this.setAttribute('class','b');
                             var leis = document.getElementsByClassName('lei');
                             if( leis.length ==0){
