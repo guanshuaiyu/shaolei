@@ -77,13 +77,14 @@ var _lei=[];
 	
 	
 	dianji= function (e){
+		this.style.fontSize = '24px';
 				 this.style.backgroundImage="url('./image/h.jpg')";
 				 if(e.which==1){
 				 if( this.textContent== 'lei'){
                      this.style.webkitTransform='rotateZ(720deg)';
                             var leis = document.getElementsByClassName('lei');
                      for(var i=0;i<leis.length;i++){
-
+			leis[i].style.fontSize = '24px';
                          leis[i].style.webkitTransform='rotateZ(720deg)';
                          leis[i].style.backgroundImage="url('./image/h.jpg')";
                      }
